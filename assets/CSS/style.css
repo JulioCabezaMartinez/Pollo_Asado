@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: grid;
+
+    grid-template-columns: 3fr 1fr 1fr 1fr 2fr;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+
+    width: 100vw;
+    height: 10vh;
+
+    background-color: #D3D1A6;
+}
+
+header img{
+    width: 20%;
+    height: auto;
+}
+
+header button{
+    display: inline-flex;
+    align-items: center;
+
+    background-color: #FF746C;
+
+    border: none !important;
+    border-radius: 10px;
+}
+
+header button span{
+    color: #D3D1A6;
+    font-family: "League Spartan", sans-serif;
+}
+
+header button i{
+    width: 10%;
+}
