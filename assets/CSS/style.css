@@ -5,7 +5,7 @@
 
     --verde: #D3D1A6;
     --rojo: #FF746C;
-
+    --espartano:"League Spartan", sans-serif;
 }
 
 body{
@@ -14,7 +14,7 @@ body{
 
 .green_spartan_letters{
     color: var(--verde);
-    font-family: "League Spartan", sans-serif;
+    font-family: var(--espartano);
 }
 
 /* Cabecera */
@@ -31,7 +31,7 @@ header{
     height: 10vh;
 
     background-color: var(--verde);
-    font-family: "League Spartan", sans-serif;
+    font-family: var(--espartano);
 }
 
 header img{
@@ -297,6 +297,8 @@ header button span{
 
 #main-2{
     margin-top: 4%;
+
+    font-family: var(--espartano);
 }
 
 #main-2-1{
@@ -311,17 +313,80 @@ header button span{
     align-items: center;
     justify-content: center;
 
-    font-family: "League Spartan", sans-serif;
+    font-family: var(--espartano);
 }
 
 #main-2-1 img{
-    width: 90%;
+    width: 70%;
     margin-bottom: 20%;
 }
 #main-2-1 h4{
     color: white;
 
     width: 55%;
+}
+
+#main-2-2{
+    display: flex;
+    padding: 2% 5% 5% 5%;
+
+    font-size: 120%;
+}
+
+#main-2-2 h4{
+    font-size: 150%;
+    margin-bottom: 10%;
+
+    font-weight: bold;
+}
+
+#main-2-2 div:nth-child(1){
+    margin-right: 10%;
+}
+
+#main-2-2 div:nth-child(2){
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#main-2-2 div:nth-child(3){
+    margin-left: 10%;
+}
+
+/* Main 3 */
+
+#main-3{
+    font-family: var(--espartano);
+
+    margin-bottom: 5%;
+}
+
+#main-3 h2{
+    text-align: center;
+
+    letter-spacing: 0.2em;
+    font-weight: bold;
+
+    margin-bottom: 5%;
+}
+
+#main-3 div{
+    display: flex;
+
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#main-3 div div{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#main-3 div div h4{
+    font-size: 120%;
+
+    margin-bottom: 10%;
 }
 
 /* Footer */
@@ -332,12 +397,12 @@ footer{
 
     align-items: center;
     justify-content: center;
-    height: 60vh;
+    height: 50vh;
 
     background-color: var(--verde);
 
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 2%;
+    padding-bottom: 1%;
 }
 
 #footer-1{
@@ -354,13 +419,41 @@ footer{
     display: flex;
     flex-direction: column;
 
-    align-items: center;
     justify-content: center;
 
     padding-left: 10%;
     padding-right: 5%;
 }
 
-#footer-1 h1, #footer-1 p{
-    
+#footer-1 h1{
+    color: red;
+
+    font-size: 150%;
+}
+
+#footer-1 p{
+    color: black;
+}
+
+#footer-1 h1, #footer-1 strong{
+    font-family: var(--espartano);
+    letter-spacing: 0.1em;
+}
+
+#horario{
+    padding-top: 2%;
+}
+
+#footer-2{
+    text-align: center;
+}
+
+#footer-2 p:nth-child(1){
+    display: inline-block;
+
+    border: 2px solid black;
+    border-radius: 20px;
+
+    padding-left: 2%;
+
 }

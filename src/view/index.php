@@ -73,15 +73,15 @@
         </div>
         <div id="main-2-2">
             <div>
-                <strong>Historia y tradicion</strong>
+                <h4>Historia y tradicion</h4>
                 <p>El Asador de Pollos Hilario Guillén es un legado familiar con casi cinco decadas de tradición, siendo un referente en la calle Pio XII, Barbate.</p>
             </div>
             <div>
-                <strong>Especialización</strong>
+                <h4>Especialización</h4>
                 <p>Enfocados solo en pollo asado, garantizando una calidad excepcional al dedicar todo nuestro esfuerzo a perfecionarlo.</p>
             </div>
             <div>
-                <strong>Calidad y Sabor</strong>
+                <h4>Calidad y Sabor</h4>
                 <p>Nos enorgullece ofrecer una comida que no solo es deliciosa, sino tambien una opción nutritiva y saludable ideal para toda la familia</p>
             </div>
         </div>
@@ -89,36 +89,39 @@
     <div id="main-3">
         <h2>LO QUE DICEN NUESTROS CLIENTES</h2>
         <div>
-            <strong>"Mejor Pollo de España"</strong>
-            <p>Sin duda, aquí estan los mejores pollos asados de España. Cada vez que vengo me sorprende lo jugosos y sabrosos que son. Recomiento a todos que lo prueben, no se van a arrepentir.</p>
-
-            <p>Separador</p>
-
             <div>
-                Perfil
+                <h4>"Mejor Pollo de España"</h4>
+                <p>Sin duda, aquí estan los mejores pollos asados de España. Cada vez que vengo me sorprende lo jugosos y sabrosos que son. Recomiento a todos que lo prueben, no se van a arrepentir.</p>
+
+                <hr>
+
+                <div>
+                    Perfil
+                </div>
             </div>
-        </div>
-        <div>
-        <strong>"Mi favorito para pollo asado"</strong>
-            <p>¡Muy buenos pollos asados, lo mejor de Barbate! Siempre jugosos y llenos de sabor, además la atencion es excelente. Es mi sitio favorito para disfrutar de un buen pollo asado.</p>
-
-            <p>Separador</p>
-
             <div>
-                Perfil
+                <h4>"Mi favorito para pollo asado"</h4>
+                <p>¡Muy buenos pollos asados, lo mejor de Barbate! Siempre jugosos y llenos de sabor, además la atencion es excelente. Es mi sitio favorito para disfrutar de un buen pollo asado.</p>
+
+                <hr>
+
+                <div>
+                    Perfil
+                </div>
             </div>
-        </div>
-        <div>
-        <Strong>"El campeón en pollo"</Strong>
-            <p>El Cristiano Ronaldo del asado. Increíble, piel muy crujiente, carne sabrosa y en su punto tanto de sal como de cocción. Este producto es el resultado de muchísimos años de completa dedicación, lo recomiendo encarecidamente.</p>
-
-            <p>Separador</p>
-
             <div>
-                Perfil
+                <h4>"El campeón en pollo"</h4>
+                <p>El Cristiano Ronaldo del asado. Increíble, piel muy crujiente, carne sabrosa y en su punto tanto de sal como de cocción. Este producto es el resultado de muchísimos años de completa dedicación, lo recomiendo encarecidamente.</p>
+
+                <hr>
+
+                <div>
+                    Perfil
+                </div>
             </div>
         </div>
     </div>
+        
     <?php
     require '../view/templates/footer.inc.php';
     ?>
