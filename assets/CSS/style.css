@@ -2,43 +2,365 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+
+    --verde: #D3D1A6;
+    --rojo: #FF746C;
+
 }
 
+body{
+    /* overflow-x: hidden; */
+}
+
+.green_spartan_letters{
+    color: var(--verde);
+    font-family: "League Spartan", sans-serif;
+}
+
+/* Cabecera */
 header{
     display: grid;
 
-    grid-template-columns: 3fr 1fr 1fr 1fr 2fr;
+    grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
     align-content: center;
     justify-content: center;
     align-items: center;
     justify-items: center;
 
-    width: 100vw;
+    max-width: 100vw;
     height: 10vh;
 
-    background-color: #D3D1A6;
+    background-color: var(--verde);
+    font-family: "League Spartan", sans-serif;
 }
 
 header img{
-    width: 20%;
+    width: 30%;
     height: auto;
+
+    justify-self: flex-start;
+
+    margin-left: 10%;
+}
+
+header a{
+
+    letter-spacing: 0.1em;
+
+    font-size: 120%;
+    color: black;
+
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: black;
+    text-decoration: underline red;
+    text-underline-offset: 50%;
+    text-decoration-thickness: 10%;
+}
+
+#indice_selected{
+    color: black;
+    text-decoration: underline red;
+    text-underline-offset: 50%;
+    text-decoration-thickness: 10%;
 }
 
 header button{
+    width: 47%;
+    height: 85%;
     display: inline-flex;
     align-items: center;
 
-    background-color: #FF746C;
+    background-color: var(--rojo);
 
     border: none !important;
     border-radius: 10px;
 }
 
 header button span{
-    color: #D3D1A6;
+    font-size: 110%;
+    
+}
+
+/* Portada */
+
+#portada{
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    width: 100%;
+    height: 85vh;
+
+    background-image:url("../IMG/Portada_AsadorGuillem_AsadorBarbate.webp");
+    background-size: 100% 100%;
+}
+
+/* Letras Grandes Portada */
+#portada h1{
+    font-size: 800%;
+    letter-spacing: 0.3em;
+
+    text-shadow: 
+        -1px -1px 0px black,  
+         1px -1px 0px black,
+        -1px  1px 0px black,
+         1px  1px 0px black;
+}
+
+#pollo_asado{
+    grid-row: 1/ span 1;
+    grid-column: 1 / span 1;
+
+    margin-top: 7%;
+
+    margin-left: 7%;
+}
+
+#pollo_asado h1:nth-child(1){
+    padding-left: 2%;
+}
+
+#portada p{
+    font-size: 200%;
+    color: white;
+}
+
+#portada span{
+    font-family: "Mr Bedfort", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+    color: var(--verde);
+}
+
+#descubre{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
+
+    justify-self: end;
+    align-self: end;
+}
+
+#descubre p{
+    margin-left: 30%;
+
+    justify-self: end;
+}
+
+#descubre a{
+    display: block;
+    width: auto;
+    align-self: center;
+    justify-self: end;
+
+    margin-left: 30%;
+}
+
+#descubre img{
+    width: 40%;
+
+}
+
+/* Main 1 */
+
+#main-1{
+    width: 100%;
+    height: 180vh;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+    margin-top: 6%;
+}
+
+#main-1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    margin-top: 1%;
+}
+
+/* Imagenes superpuestas */
+#main-1-1 div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+}
+
+#img_polloAsado{
+    width: 70%;
+    height: 70%;
+
+    margin-left: 5%;
+
+    z-index: 1;
+}
+
+#img_salsa{
+    position: absolute;
+    
+    width: 25%;
+    
+    top: 145%;
+    left: 18%;
+
+    align-self: flex-end;
+    
+    z-index: 2;
+}
+
+/* Texto derecha Imagenes */
+
+#main-1-1 div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: start;
+
+    width: 90%;
+
+    margin-bottom: 25%;
+}
+
+.titulo-main{
+    color: red;
+
+    font-size: 250%;
+    letter-spacing: 0.5em;
+
+    margin-bottom: 10%;
+}
+
+.strong-main{
+    font-size: 140%;
+
+    margin-bottom: 10%;
+}
+
+.text-main{
+    font-size: 130%;
+    margin-bottom: 10%;
+}
+
+#main-1-1 div:nth-child(2) button{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    font-size: 130%;
+    font-weight: bold;
+
+    background-color: red;
+
+    border: none !important;
+    border-radius: 10px;
+
+    align-self: end;
+}
+
+#main-1-2{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+
+    justify-content: center;
+    align-items: center;
+
+    padding-left: 2%;
+    padding-right: 2%;
+
+    margin-bottom: 5%;
+}
+
+#main-1-2 div{
+    align-self: self-start;
+}
+
+#main-1-2 .titulo-main{
+    font-size: 200%;
+}
+
+#main-1-2 .text-main{
+    margin-bottom: 15%;
+}
+
+#main-1-2 img{
+    max-width: 35%;
+}
+
+#main-2{
+    margin-top: 4%;
+}
+
+#main-2-1{
+    background-image: url("../IMG/Trabajador_Main2_AsadorGuillem_AsadorBarbate.webp");
+    background-size: 100% 100%;
+
+    height: 70vh;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
     font-family: "League Spartan", sans-serif;
 }
 
-header button i{
-    width: 10%;
+#main-2-1 img{
+    width: 90%;
+    margin-bottom: 20%;
+}
+#main-2-1 h4{
+    color: white;
+
+    width: 55%;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+
+    background-color: var(--verde);
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#footer-1{
+    display: flex;
+}
+
+#footer-1 div{
+    display: flex;
+
+    width: 100%;
+}
+
+#footer-1 div div{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    padding-left: 10%;
+    padding-right: 5%;
+}
+
+#footer-1 h1, #footer-1 p{
+    
 }

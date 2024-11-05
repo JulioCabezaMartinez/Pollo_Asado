@@ -8,63 +8,70 @@
     <script src="https://kit.fontawesome.com/6af6746610.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fahkwang&family=League+Spartan:wght@100..900&family=Syne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fahkwang&family=League+Spartan:wght@100..900&family=Mr+Bedfort&family=Syne&display=swap" rel="stylesheet">
     <title>Home</title>
 </head>
 <body>
     <?php
     require "../view/templates/header.php";
     ?>
-    <div>
-        <h1>Pollo</h1>
-        <h1>Asado</h1>
+    <div id="portada" class="green_spartan_letters">
+        <div id="pollo_asado">
+            <h1>POLLO</h1>
+            <h1>ASADO</h1>
 
-        <p>Sabor Autentico desde <span>1978</span></p>
+            <p>Sabor Autentico desde <span>1978</span></p>
+        </div>
 
-        <p>Descubre por qué somos los favoritos de Barbate</p> <button>sFlecha</button>
+        <div id="descubre">
+            <p>Descubre por qué somos <br> los favoritos de Barbate</p>
+            <a href=""><img src="../../assets/IMG/Botón Banner.webp"></a>
+        </div>
     </div>
-    <div>
-        <div>            
+
+    <div id="main-1">
+        <div id="main-1-1">            
             <div>
-                <img src="" alt="">
-                <img src="" alt="">
+                <img id="img_polloAsado" src="../../assets/IMG/Pollo_Asado_Main_AsadorGuillem_AsadorBarbate.webp">
+                <img id="img_salsa" src="../../assets/IMG/Salsa_Main_AsadorGuillem_AsadorBarbate.webp">
             </div>
             <div>
-                <h3>El sabor y el estilo tradicional de la preparación</h3>
-                <strong>Nuestro pollo asado no es solo una comida, es una tradición que llevamos perfeccionando desde 1978. Lo que nos hace únicos es la receta original a las finas hierbas, creada por mi padre 
+                <h3 class="titulo-main">EL SABOR Y EL ESTILO TRADICIONAL DE LA PREPARACIÓN</h3>
+                <strong class="strong-main">Nuestro pollo asado no es solo una comida, es una tradición que llevamos perfeccionando desde 1978. Lo que nos hace únicos es la receta original a las finas hierbas, creada por mi padre 
                 “don Hilario Guillén”.</strong>
-                <p>Cada pollo es cuidadosamente preparado con ingredientes de la mejor calidad, asegurando un sabor inigualable y una textura jugosa que te hará volver. No usamos atajos, mantenemos la técnica tradicional de siempre que garantiza no solo un pollo delicioso, sino también saludable. Elegir nuestro asador es apostar por lo auténtico, donde el sabor y la calidad son siempre nuestra prioridad.</p>
-                <button>Saber más</button>
+                <p class="text-main">Cada pollo es cuidadosamente preparado con ingredientes de la mejor calidad, asegurando un sabor inigualable y una textura jugosa que te hará volver. No usamos atajos, mantenemos la técnica tradicional de siempre que garantiza no solo un pollo delicioso, sino también saludable. Elegir nuestro asador es apostar por lo auténtico, donde el sabor y la calidad son siempre nuestra prioridad.</p>
+                <button class="green_spartan_letters">Saber más</button>
             </div>
         </div>
-        <div>
+        <div id="main-1-2">
             <div>
-                <h3>Saborea la diferencia</h3>
+                <h3 class="titulo-main">SABOREA LA DIFERENCIA</h3>
                 <div>
-                    <strong>Ingredientes frescos</strong>
-                    <p>Usamos solo los mejores ingredientes para crear un pollo asado que deleitará tu paladar.</p>
+                    <strong class="strong-main">Ingredientes frescos</strong>
+                    <p class="text-main">Usamos solo los mejores ingredientes para crear un pollo asado que deleitará tu paladar.</p>
                 </div>
                 <div>
-                    <strong>Recogida rápida</strong>
-                    <p>Disfruta de tu pollo asado, caliente y fresco, listo para su recogida en poco tiempo.</p>
+                    <strong class="strong-main">Recogida rápida</strong>
+                    <p class="text-main">Disfruta de tu pollo asado, caliente y fresco, listo para su recogida en poco tiempo.</p>
                 </div>
                 <div>
-                    <strong>Recetas familiares</strong>
-                    <p>Nuestro pollo se prepara siguiendo una receta familiar y elaboración que ha pasado de padre a hijo.</p>
+                    <strong class="strong-main">Recetas familiares</strong>
+                    <p class="text-main">Nuestro pollo se prepara siguiendo una receta familiar y elaboración que ha pasado de padre a hijo.</p>
                 </div>
                 
             </div>
-            <div>
-                <img src="" alt="">
-            </div>
+            
+            <img src="../../assets/IMG/Trabajador_Main_AsadorGuillem_AsadorBarbate.webp" style="width: 60%;">
+            
         </div>
     </div>
-    <div>
-        <div>
-            <button></button>
-            <h4>SIENTE EL SABOR AUTÉNTICO & ORIGINAL CON NOSOTROS</h4>
+
+    <div id="main-2">
+        <div id="main-2-1">
+            <a href=""><img src="../../assets/IMG/Botón Banner.webp"></a>
+            <h4 class="titulo-main">SIENTE EL SABOR AUTÉNTICO & ORIGINAL CON NOSOTROS</h4>
         </div>
-        <div>
+        <div id="main-2-2">
             <div>
                 <strong>Historia y tradicion</strong>
                 <p>El Asador de Pollos Hilario Guillén es un legado familiar con casi cinco decadas de tradición, siendo un referente en la calle Pio XII, Barbate.</p>
@@ -79,7 +86,7 @@
             </div>
         </div>
     </div>
-    <div>
+    <div id="main-3">
         <h2>LO QUE DICEN NUESTROS CLIENTES</h2>
         <div>
             <strong>"Mejor Pollo de España"</strong>
