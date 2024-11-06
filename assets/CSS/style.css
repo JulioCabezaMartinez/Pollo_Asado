@@ -10,10 +10,16 @@
 
 body{
     /* overflow-x: hidden; */
+
+    font-family: var(--espartano);
 }
 
 .green_spartan_letters{
     color: var(--verde);
+    font-family: var(--espartano);
+}
+
+.espartano{
     font-family: var(--espartano);
 }
 
@@ -241,8 +247,8 @@ header button span{
 
 .strong-main{
     font-size: 140%;
-
-    margin-bottom: 10%;
+    font-weight: bold;
+    padding-bottom: 10%;
 }
 
 .text-main{
@@ -283,12 +289,23 @@ header button span{
     align-self: self-start;
 }
 
+#main-1-2 div div{
+    background-color: #D3D1A6;
+    opacity: 75%;
+
+    padding: 1% 1%;
+
+    border-radius: 10px;
+
+    margin-bottom: 15%;
+}
+
 #main-1-2 .titulo-main{
     font-size: 200%;
 }
 
 #main-1-2 .text-main{
-    margin-bottom: 15%;
+    margin-bottom: 0%;
 }
 
 #main-1-2 img{
@@ -340,16 +357,16 @@ header button span{
     font-weight: bold;
 }
 
-#main-2-2 div:nth-child(1){
+.main-tripleIzq{
     margin-right: 10%;
 }
 
-#main-2-2 div:nth-child(2){
+.main-tripleCen{
     margin-right: 10%;
     margin-left: 10%;
 }
 
-#main-2-2 div:nth-child(3){
+.main-tripleDer{
     margin-left: 10%;
 }
 
@@ -457,3 +474,88 @@ footer{
     padding-left: 2%;
 
 }
+
+/* Preparación page */
+
+.red_title{
+
+    width: 40%;
+
+    padding: 2% 6%;
+    margin-bottom: 4%;
+
+    background-color: red;
+    border-radius: 10px;
+
+    text-align: center;
+    font-size: 130%;
+    font-weight: bold;
+    color: white;
+}
+
+.text_izq{
+
+    width: 40%;
+
+    text-align: left;
+
+}
+
+.text_der{
+
+    width: 40%;
+
+    text-align: right;
+
+}
+
+.titulo-preparacion{
+    text-align: center;
+
+    color: red;
+
+    font-size: 250%;
+    letter-spacing: 0.3em;
+
+    margin-bottom: 5%;
+
+    font-weight: bold;
+}
+
+.derecha{
+    margin-right: 5%;
+    margin-bottom: 5%;
+    align-self: flex-end;
+
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.derecha div{
+    display: inline ;
+    width: fit-content;
+}
+
+.izquierda{
+    width: 100%;
+
+    margin-left: 5%;
+    margin-right: 5%;
+
+    margin-bottom: 5%;
+    
+    align-self: flex-start;
+
+    display: flex;
+}
+
+.izquierda div{
+    width: fit-content;
+}
+
+.izquierda img, .derecha img{
+    max-width: 30%;
+    border-radius: 10px;
+}
+

@@ -1,16 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../assets/CSS/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/6af6746610.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fahkwang&family=League+Spartan:wght@100..900&family=Mr+Bedfort&family=Syne&display=swap" rel="stylesheet">
-    <title>Home</title>
-</head>
+<?php
+    require_once '../view/templates/head.inc.php'
+?>
 <body>
     <?php
     require "../view/templates/header.php";
@@ -72,15 +64,15 @@
             <h4 class="titulo-main">SIENTE EL SABOR AUTÉNTICO & ORIGINAL CON NOSOTROS</h4>
         </div>
         <div id="main-2-2">
-            <div>
+            <div class="main-tripleIzq">
                 <h4>Historia y tradicion</h4>
                 <p>El Asador de Pollos Hilario Guillén es un legado familiar con casi cinco decadas de tradición, siendo un referente en la calle Pio XII, Barbate.</p>
             </div>
-            <div>
+            <div class="main-tripleCen">
                 <h4>Especialización</h4>
                 <p>Enfocados solo en pollo asado, garantizando una calidad excepcional al dedicar todo nuestro esfuerzo a perfecionarlo.</p>
             </div>
-            <div>
+            <div class="main-tripleDer">
                 <h4>Calidad y Sabor</h4>
                 <p>Nos enorgullece ofrecer una comida que no solo es deliciosa, sino tambien una opción nutritiva y saludable ideal para toda la familia</p>
             </div>
