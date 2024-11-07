@@ -1,3 +1,28 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    --verde: #D3D1A6;
+    --rojo: #FF746C;
+    --espartano:"League Spartan", sans-serif;
+}
+
+body{
+    /* overflow-x: hidden; */
+
+    font-family: var(--espartano);
+}
+
+.green_spartan_letters{
+    color: var(--verde);
+    font-family: var(--espartano);
+}
+
+.espartano{
+    font-family: var(--espartano);
+}
+
 /* Preparación page */
 
 .red_title{
@@ -80,4 +105,53 @@
 .izquierda img, .derecha img{
     max-width: 30%;
     border-radius: 10px;
+}
+
+
+.flecha{
+    width: 22vw;
+}
+
+.flechas :nth-child(1){
+    position: absolute;
+
+    bottom: -160vh;
+
+    left: 34vw; 
+}
+
+.flechas :nth-child(2){
+    transform: scaleX(-1);
+
+    position: absolute;
+
+    bottom: -203vh;
+
+    left: 43vw;
+}
+
+.flechas :nth-child(3){
+    position: absolute;
+
+    bottom: -245vh;
+
+    left: 34vw;
+}
+
+.flechas :nth-child(4){
+    transform: scaleX(-1);
+
+    position: absolute;
+
+    bottom: -287vh;
+
+    left: 43vw;
+}
+
+.flechas :nth-child(5){
+    position: absolute;
+
+    bottom: -330vh;
+
+    left: 34vw;
 }

@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    --verde: #D3D1A6;
+    --rojo: #FF746C;
+    --espartano:"League Spartan", sans-serif;
+}
+
+body{
+    /* overflow-x: hidden; */
+
+    font-family: var(--espartano);
+}
+
+.green_spartan_letters{
+    color: var(--verde);
+    font-family: var(--espartano);
+}
+
+.espartano{
+    font-family: var(--espartano);
+}
+
+.contacto-map{
+    display: flex;
+    justify-content: space-around;
+
+    width: 70vw;
+    height: 30vh;
+
+    background-color: #2C2F24;
+
+    border-radius: 10px;
+
+    color: white;
+}
+
+.contacto-map div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinea el contenido dentro de cada columna desde la izquierda */
+    padding-top: 5%;
+}
+
+.contacto-map h1{
+    color: var(--verde);
+
+    font-size: 150%;
+}
+
+.contacto-map p{
+    font-weight: 100;
+}
+
+.contacto-map h1, .contacto-map strong{
+    font-family: var(--espartano);
+    letter-spacing: 0.1em;
+}
+
+.horario-map{
+    padding-top: 2%;
+}
