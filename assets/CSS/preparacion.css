@@ -1,0 +1,83 @@
+/* Preparación page */
+
+.red_title{
+    display: inline;
+
+    padding: 4% 10%;
+    margin-bottom: 10%;
+
+    background-color: red;
+    border-radius: 10px;
+
+    text-align: center;
+    font-size: 130%;
+    font-weight: bold;
+    color: white;
+}
+
+.text_izq{
+
+    width: 20vw;
+
+    text-align: left;
+
+}
+
+.text_der{
+
+    width: 20vw;
+
+    text-align: right;
+
+}
+
+.titulo-preparacion{
+    text-align: center;
+
+    color: red;
+
+    font-size: 250%;
+    letter-spacing: 0.3em;
+
+    margin-bottom: 5%;
+
+    font-weight: bold;
+}
+
+.derecha{
+    margin-bottom: 5%;
+    align-self: flex-end;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
+}
+
+.derecha div{
+    display: inline-block;
+    width: fit-content;
+}
+
+.izquierda{
+    width: 100%;
+
+    margin-right: 5%;
+
+    margin-bottom: 5%;
+    
+    align-self: flex-start;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.izquierda div{
+    display: inline-block;
+    width: fit-content;
+}
+
+.izquierda img, .derecha img{
+    max-width: 30%;
+    border-radius: 10px;
+}
