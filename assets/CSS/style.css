@@ -340,7 +340,7 @@ body{
     margin-bottom: 10%;
 }
 
-@media (max-width: 1024px) and (min-width: 769px){
+@media (max-width: 1024px){
 
     #main-1{
         display: flex !important;

@@ -1,6 +1,6 @@
 <footer>
     <div id="footer-1">
-        <img style="max-width: 20%; padding-left:4%;" src="../../assets/IMG/Logo_Footer_AsadorGuillem_AsadorBarbate.webp">
+        <img style="max-width: 20vw; padding-left:4%;" src="../../assets/IMG/Logo_Footer_AsadorGuillem_AsadorBarbate.webp">
         <div>
             <div>
                 <h1>CONTACTO</h1>
