@@ -342,6 +342,10 @@ body{
 
 @media (max-width: 1024px){
 
+    #pollo_asado h1{
+        font-size: 10vw !important;
+    }
+
     #main-1{
         display: flex !important;
         flex-direction: column; 
